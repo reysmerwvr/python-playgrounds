@@ -9,6 +9,8 @@ if len(sys.argv) >= 2:
   if numberArgument is not None:
     stringNumber = str(numberArgument)
     stringNumberLength = len(stringNumber)
+    # for index in range(stringNumberLength):
+    #     print("{:04d}".format(int(stringNumber[stringNumberLength-1-index]) * 10 ** index))
     listOfNumbers = []
     for index in range(stringNumberLength):
       formatWeight = stringNumberLength-index
