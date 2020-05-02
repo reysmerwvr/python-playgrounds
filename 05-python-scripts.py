@@ -1,4 +1,5 @@
 import sys
+
 if len(sys.argv) >= 3:
     text = str(sys.argv[1])
     iterations = int(sys.argv[2])

@@ -14,10 +14,10 @@ print(testList + testList)
 
 # The sum of each three first numbers of each list should be resulted in the last element of each list
 matrix = [
-  [1, 1, 1, 3],
-  [2, 2, 2, 7],
-  [3, 3, 3, 9],
-  [4, 4, 4, 13]
+    [1, 1, 1, 3],
+    [2, 2, 2, 7],
+    [3, 3, 3, 9],
+    [4, 4, 4, 13]
 ]
 matrix[1][-1] = sum(matrix[1][:-1])
 matrix[-1][-1] = sum(matrix[-1][:-1])
