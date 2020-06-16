@@ -20,6 +20,7 @@ class Catalogue:
 
     # Constructor
     def __init__(self, movies=[]):
+        self.movies = movies
         self.load()
 
     def add(self, movie):

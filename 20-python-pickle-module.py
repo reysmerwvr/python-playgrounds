@@ -1,8 +1,8 @@
 import pickle
-from io import open
+import io
 list1 = [1, 2, 3]
 
-file = open('list.pickle', 'wb')
+file = io.open('list.pickle', 'wb')
 
 pickle.dump(list1, file)
 
@@ -10,7 +10,7 @@ file.close()
 
 del file
 
-file = open('list.pickle', 'rb')
+file = io.open('list.pickle', 'rb')
 
 list1 = pickle.load(file)
 
@@ -50,7 +50,7 @@ for name in names:
 
 print(personList)
 
-file = open('persons.pckl', 'wb')
+file = io.open('persons.pckl', 'wb')
 
 pickle.dump(personList, file)
 
@@ -58,7 +58,7 @@ file.close()
 
 del file
 
-file = open('persons.pckl', 'rb')
+file = io.open('persons.pckl', 'rb')
 
 persons = pickle.load(file)
 

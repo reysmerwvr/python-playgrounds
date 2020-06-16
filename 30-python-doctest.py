@@ -38,8 +38,7 @@ def palindrome(word):
     """
     if word.lower().replace(" ", "") == word[::-1].lower().replace(" ", ""):
         return True
-    else:
-        return False
+    return False
 
 
 if __name__ == "__main__":

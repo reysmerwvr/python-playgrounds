@@ -22,6 +22,7 @@ class Handler:
 
     # Constructor
     def __init__(self, characters=[]):
+        self.characters = characters
         self.load()
 
     def add(self, character):

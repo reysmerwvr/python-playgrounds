@@ -4,6 +4,7 @@ numbers = range(0, 101)
 def multiple(number):
     if number % 5 == 0:
         return True
+    return False
 
 
 print(list(filter(multiple, numbers)))

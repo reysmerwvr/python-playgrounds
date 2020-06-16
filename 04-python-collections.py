@@ -1,9 +1,9 @@
 # Tuples
 tuple1 = (100, "Hello", [1, 2, 3], -50)
-tuple1[0]
-tuple1[-1]
-tuple1[2:]
-tuple1[2][-1]
+print(tuple1[0])
+print(tuple1[-1])
+print(tuple1[2:])
+print(tuple1[2][-1])
 print(len(tuple1))
 print(len(tuple1[2]))
 print(tuple1.index('Hello'))

@@ -24,14 +24,14 @@ print(intermediate_number(-24, 24))
 
 def separate(list_to_separate):
     list_to_separate.sort()
-    evens = []
-    odds = []
+    evens_list = []
+    odds_list = []
     for n in list_to_separate:
         if n % 2 == 0:
-            evens.append(n)
+            evens_list.append(n)
         else:
-            odds.append(n)
-    return evens, odds
+            odds_list.append(n)
+    return evens_list, odds_list
 
 
 evens, odds = separate([6, 5, 2, 1, 7])

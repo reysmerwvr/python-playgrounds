@@ -53,6 +53,7 @@
 # c = Car("blue", 4, 150, 1200)
 # print(c)
 
+
 class Vehicle:
 
     def __init__(self, color, wheels):

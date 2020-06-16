@@ -23,8 +23,8 @@ test()
 
 
 def test():
-    o = 5
-    print(o)
+    num = 5
+    print(num)
 
 
 test()
@@ -44,15 +44,15 @@ def test():
     return "A string returned", 20, [1, 2, 3]
 
 
-c, n, l = test()
-print(c, n, l)
+c, n, cl = test()
+print(c, n, cl)
 
 
-def sum(a, b):
+def sum_nums(a, b):
     return a + b
 
 
-result = sum(5, 10)
+result = sum_nums(5, 10)
 print(result)
 
 
@@ -85,7 +85,7 @@ print(n)
 
 
 def double_values(numbers):
-    for i, n in enumerate(numbers):
+    for i, number in enumerate(numbers):
         numbers[i] *= 2
 
 
@@ -94,20 +94,20 @@ double_values(ns[:])
 print(ns)
 
 
-def indet_position(*args):
+def indent_position(*args):
     for arg in args:
         print(arg)
 
 
-indet_position(1, "Hello", [1, 2, 3])
+indent_position(1, "Hello", [1, 2, 3])
 
 
-def indet_name(**kwargs):
+def indent_name(**kwargs):
     for kwarg in kwargs:
         print(kwargs[kwarg])
 
 
-indet_name(n=1, s="Hello", l=[1, 2, 3])
+indent_name(n=1, s="Hello", l=[1, 2, 3])
 
 
 def super_function(*args, **kwargs):
@@ -155,8 +155,8 @@ abs(6)
 round(5.5)
 round(5.4)
 eval('2+5')
-n = 10
-eval('n*10 - 5')
+num = 10
+eval('num*10 - 5')
 len("Hello")
 len([])
 help()
