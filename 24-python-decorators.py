@@ -124,7 +124,7 @@ def hello(name):
 
 @monitor_args
 def good_bye(name):
-    print("Good Bye {}!")
+    print("Good Bye {}!".format(name))
 
 
 hello("John")
